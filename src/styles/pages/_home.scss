@@ -1,0 +1,12 @@
+.home {
+  grid-row: 3;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 1fr;
+  background: $secondary_white;
+  &--cart {
+    justify-self: center;
+    align-self: center;
+    background: $primary_white;
+  }
+}

@@ -1,0 +1,7 @@
+.primary {
+  display: grid;
+  min-height: 100vh;
+  max-height: 100vh;
+  grid-template-columns: 10vw 80vw 10vw;
+  grid-template-rows: 13vh 7vh 80vh;
+}
